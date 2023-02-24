@@ -1,0 +1,93 @@
+[{
+		"id": "1",
+		"title": "你对我们公众号有什么建议？",
+		"type": "input",
+		"content": "",
+		"required": true,
+		"choice": null
+	},
+	{
+		"id": "2",
+		"title": "你有经常看我们公众号的文章嘛？",
+		"type": "checkbox",
+		"content": [{
+			"value": 0,
+			"text": "经常看"
+		}, {
+			"value": 1,
+			"text": "偶尔看看"
+		}, {
+			"value": 2,
+			"text": "很少看"
+		}, {
+			"value": 3,
+			"text": "没有看过"
+		}],
+		"required": true,
+		"choice": {
+			"type": "single"
+		}
+	},
+	{
+		"id": "3",
+		"title": "你平常喜欢看文章嘛？",
+		"type": "checkbox",
+		"content": [{
+			"value": 0,
+			"text": "经常看"
+		}, {
+			"value": 1,
+			"text": "偶尔看看"
+		}, {
+			"value": 2,
+			"text": "很少看"
+		}, {
+			"value": 3,
+			"text": "没有看过"
+		}],
+		"required": true,
+		"choice": {
+			"type": "single"
+		}
+	},
+	{
+		"id": "4",
+		"title": "你知道我们公众号嘛？",
+		"type": "checkbox",
+		"content": [{
+			"value": 0,
+			"text": "知道"
+		}, {
+			"value": 1,
+			"text": "不知道"
+		}],
+		"required": true,
+		"choice": {
+			"type": "single"
+		}
+	},
+	{
+		"id": "5",
+		"title": "请至少选择三个数字",
+		"type": "checkbox",
+		"content": [{
+			"value": 0,
+			"text": "1"
+		}, {
+			"value": 1,
+			"text": "2"
+		}, {
+			"value": 2,
+			"text": "3"
+		}, {
+			"value": 3,
+			"text": "4"
+		}],
+		"required": true,
+		"choice": {
+			"type": "multiple",
+			"max": 3
+
+		}
+	}
+]
